@@ -197,12 +197,3 @@
         .leaflet-control-layers-expanded .leaflet-control-layers-toggle {
             display: none;
         }
-
-/* Esto obliga a que el cuadro crezca lo necesario y no use scroll */
-.leaflet-popup-content {
-    width: 320px !important;
-    height: auto !important;
-}
-.leaflet-popup-content-wrapper {
-    max-height: none !important;
-}
